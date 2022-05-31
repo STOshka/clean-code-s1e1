@@ -121,7 +121,11 @@ body {
   align-items: center;
 }
 
-.task-element > * {
+.task-element__checkbox,
+.task-element__label,
+.task-element__text,
+.task-element__edit-button,
+.task-element__delete-button {
   vertical-align: middle;
 }
 
